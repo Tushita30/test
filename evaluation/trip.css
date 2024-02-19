@@ -1,0 +1,1225 @@
+*{
+   padding: 0%;
+   margin: 0%; 
+}
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+
+/* NAVIGATION BAR */
+.top
+{
+    height: 8px;
+    width: 100%;
+    background-color: #000000;
+    padding-bottom: 2px;
+
+}
+
+
+#navbar
+{
+    display:flex;
+    align-items: center; /*\center me ajata hai coloumn wise */
+    height: 80px;
+    justify-content: space-evenly;
+    background-color:#000000;
+    opacity: 0.749;
+    position:relative;
+    z-index: -1;
+    height: 10%;
+}
+
+
+
+/* NAVIGATION BAR : logo and image */
+
+#logo
+{
+    /* margin:7px 70px; */
+    z-index: 1;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: auto;
+    
+}
+
+#tripimg
+{
+    padding-top:px;
+    z-index: 1;
+    
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: auto;
+}
+
+#freebie
+{
+    margin-left: -130px;
+    
+    
+    margin-bottom: 12px;
+    width: auto;
+}
+
+/*NAVIGATION BAR:  list styling */
+
+#navbar ul
+{
+    display: flex;
+}
+
+
+
+
+#navbar ul li
+{
+
+    list-style-type: none; /*bindu bindu nahi ayenge */
+    font-size: 1.2rem;
+}
+
+
+
+#navbar ul li a
+{
+    color: white;
+    display:block;
+    padding:3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+
+
+/* HOME SECTION */
+
+#home
+{
+    display: flex;
+    columns: black;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before
+{ 
+   content: "";
+   
+   opacity:0.89;
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+}
+
+
+/* utility classes */
+.h-primary
+{
+    font-size: 2.8rem ;
+    padding:12px;
+}
+
+
+
+
+/* backgrounf hill img  */
+
+.backimg
+{
+    background:url(hillsback.png) no-repeat center center/cover ;
+    z-index: -2;
+    /* position: static; */
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* center div block */
+ #center
+ {
+    display: flex;
+    height: 70%;
+    /* justify-content: flex-start; */
+    
+ }
+
+
+ 
+/* center div block: journey */
+#journey
+{
+    height: 10%;
+    padding-left: 30px;
+    padding-top: 200px;
+    width: 115lvh;
+}
+
+.h-primary
+{
+    font-size: 40px;
+    letter-spacing: -1px;;
+    line-height: 40px;
+    color: #ffffff;
+    font-family: "Big Noodle Titling";
+    text-align: center;
+    
+    
+}
+
+
+#login
+{
+    margin-top: 4%;
+    box-sizing: border-box;
+    color: #606060;
+    height: 100%;
+    width: 28%;
+    position:relative;
+    background-color: white;
+    z-index: 7;
+    border-radius: 1px;
+}
+
+
+#search-login
+{
+    text-align: center;
+    margin-top: 6%;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    line-height: 45px;
+    
+    font-family: "Big Noodle Titling";
+    text-align: center;
+}
+
+
+#content-login
+{
+    text-align: center;
+    font-family: "Big Noodle Titling";
+    margin-bottom: 30px;
+}
+
+#input-box
+{
+    margin-left: 38px;
+    line-height: 10px;
+    width: 77%;
+    height: 45px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    position: relative;
+    
+}
+
+#input-box input
+{
+    /* margin-left: 10%; */
+    width: 100%;
+    height: 100%;
+    background:transparent ;
+    border:none;
+    outline:none;
+    border: 2px solid white;
+   
+}
+
+#input-box input::placeholder
+{
+    color: #606060;
+    padding-left: 8%;
+    font-weight: 400;
+}
+
+#input-box box-icon
+{
+    position: absolute;
+    right: 20px;
+    top:25%;
+    color: #606060;
+}
+
+#button-login
+{
+    margin-left: 12%;
+    width: 77%;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #006fe6;
+}
+
+.discover
+{
+   
+    width: 614px;
+    height: 162px;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    padding-left: 40px;
+}
+
+
+
+/* firat page bottom  */
+ #bottom
+ {
+    opacity: 0.851;
+    width: 100%;
+    height: 12%;
+    padding-top: 52px;
+    background-color: #47a0ff;
+    z-index: 2;
+    
+ }
+
+ #bottom-content
+ {
+    padding-left: 150px;
+    padding-bottom: 40px;
+    text-align: left;
+    width: 50%;
+    height: 30%;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family:sans-serif;
+    font-size: small;
+ }
+
+
+/* **************************************SECOND PAGE**************************************************************/
+
+/* second page : img */
+
+#backimg-two
+{
+    background: url(backtwo.png)  no-repeat  center center/cover;
+    /* opacity: 6; */
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+/* images */
+
+#image
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+
+}
+#northone
+{
+    z-index: 2;
+    background-image: url(northone.png);
+    width: 220px;
+    height: 220px;
+    border-radius: 133px;
+    background-color: #000000;
+}
+
+#america-1
+{
+    margin-top:50%;
+    margin-left: 20%;
+}
+.na-1
+{
+    font-family: "Big Noodle Titling";
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#northtwo
+{
+    z-index: 2;
+    background-image: url(northtwo.png);
+    width: 220px;
+    height: 220px;
+    border-radius: 133px;
+    background-color: #000000;
+}
+
+.na-2
+{
+    font-family: "Big Noodle Titling";
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+#sanfrance
+{
+    z-index: 2;
+    /* height: 200px;
+    width: 200px; */
+    background-image: url(sanfrance.png);
+    width: 220px;
+    height: 220px;
+    border-radius: 133px;
+    background-color: #000000;
+}
+
+.sf-1
+{
+    font-family: "Big Noodle Titling";
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#amazon
+{
+    z-index: 2;
+    /* height: 200px;
+    width: 200px; */
+    background-image: url(amazon.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 220px;
+    border-radius: 133px;
+    background-color: #000000;
+}
+
+.ac-1
+{
+    font-family: "Big Noodle Titling";
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+#findtour
+{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 85px;
+    color: #606060;
+    font-family: "Big Noodle Titling";
+    text-align: center
+}
+
+
+#paraoffind
+{
+    width: 956px;
+    height: 137px;
+    font-size: 20px;
+    color: #606060;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    font-size: medium;
+}
+
+
+/************************************THIRD PAGE ************************************************************** */
+
+
+
+#backimg-three
+{
+    background: url(backthree.png) no-repeat  center ;
+    /* background-color: #47a0ff , 0.3 ;
+    filter: sepia(200%) hue-rotate(195 deg) saturate(550%); */
+    height: 105vh;
+    width: 100vw;
+    z-index: -2;
+}
+
+#threeabove
+{
+    background-color: rgb(71,160,255,0.9);
+    /* opacity: 0.7; */
+    height: 105vh;
+    width: 100vw;
+    
+}
+
+
+
+#deals
+{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 85px;
+    color: #ffffff;
+    font-family: "Big Noodle Titling";
+    text-align: center;
+    /* margin-top: 0px;*/
+    padding-top: 2%;
+    /*margin-bottom: 30px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 85px;
+    color: #ffffff;
+    font-family: "Big Noodle Titling";
+    text-align: center */
+    
+} 
+  
+
+
+
+
+#blockcontainer 
+{
+
+    display: flex;
+    /* height: 77%; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* height: 100%; */
+    width: 100%;
+    padding-top: 50px;
+    
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!! ----FIRST BLOCKKKK ----!!!!!!!!!!!!!!!!!!!!!!!!!1 */
+#firstblock
+{
+    
+    background-color: white;
+    width: 300px;
+    height: 435px;
+    margin-right: -180px;
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+#blockone
+{
+    background-image: url(blockone.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20rem;
+    width: 300px;
+    margin-bottom: 50%;
+}
+
+#firstwhite
+{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!! ----Second BLOCKKKK ----!!!!!!!!!!!!!!!!!!!!!!!!!1 */
+#secondblock
+{
+    background-color: white;
+    width: 300px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 134px;
+    z-index: 2;
+    margin-top: 170px;
+    margin-left: 30px;  */
+}
+
+#blocktwo
+{
+    background: url(blocktwo.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20rem;
+    width: 300px;
+    margin-bottom: 50%;
+}
+
+#secondwhite
+{
+    background-color: white;
+}
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!! ----    THIRD   BLOCKKKK ----!!!!!!!!!!!!!!!!!!!!!!!!!1 */
+#thirdblock
+{
+    background-color: white;
+    width: 300px;
+    height: 435px;
+    margin-left: -180px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 134px;
+    z-index: 2;
+    margin-top: 170px;
+    margin-left: 30px;  */
+}
+
+
+#blockthree
+{
+    background-image: url(blockthree.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20rem;
+    width: 300px;
+    margin-bottom: 50%;
+}
+#thirdwhite
+{
+    background-color: white;
+}
+
+
+#surfing
+{
+    margin-top: -245px;
+    padding-left: -4%;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    line-height: 85px;
+    color: #606060;
+    font-size:x-large;
+    font-family: "Big Noodle Tilting", Arial, sans-serif;
+    text-align: center;
+}
+#surf-3
+{
+    padding-top: 5%;
+}
+#content
+{
+    margin-top: -5%;
+    padding-left: 9%;
+    font-size: 70%;
+    width: 260px;
+    height: 90px;
+    font-size: 14px;
+    color: #606060;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+#button
+{
+    margin-left: 20%;
+
+    /* padding-top: 30%; */
+    /* padding-bottom: 10%; */
+}
+
+#book-3
+{
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+    font-size: smaller;
+    font-weight: bold;
+    background-color: #47a0ff;
+   padding-top: 7%;
+   padding-bottom: 7%;
+   padding-left: 20%;
+   padding-right: 20%;
+}
+
+#rupee
+{
+    position:absolute;
+    margin-top: 14%;
+    margin-left: 7%;
+    height: 5%;
+    width: 8%;
+    background-color:#47a0ff;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+   
+
+    
+}
+
+#paisa-1
+{
+    padding-top: 2%;
+    text-decoration: line-through;
+    color: white;
+}
+
+#paisa-2
+{
+    font-size: x-large;
+    margin-bottom: 8%;
+    color: #ffffff;
+}
+
+#paisa-img
+{
+   
+   padding-top: 0px;
+
+  
+}
+
+/*-------------------------------------- FOURTH PAGE ---------------------------------------------------------*/
+#backfour
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#find
+{
+    height: 20%;
+    width: 100%;
+    font-size: 24px;
+    letter-spacing: 3px;
+    line-height: 85px;
+    color: #606060;
+    font-family: "Big Noodle Titling";
+    text-align:center;
+    padding-top: 5%;
+}
+
+#promotion
+{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#c-one
+{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction:row ;
+    background-color: rgb(255, 255, 255);
+}
+
+#tripone
+{
+    width: 33.33%;
+    height:100% ;
+    background-image: url(trip1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: currentColor;
+    border: 1px solid white;
+    
+}
+
+
+#prom-1
+{
+    margin-top: 27%;
+    color: white;
+    /* margin-left: 25%; */
+    text-align: center;
+    font-weight:bolder;
+    font-size: x-large;
+    font-style:normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2.5px;
+}
+
+#day-1
+{
+    /* margin-top: 30%; */
+    color: white;
+    height: 10%;
+    width: 50%;
+    line-height: 300%;
+    margin-left: 25%;
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+    font-style: normal;
+    letter-spacing: 2.5px;
+}
+
+#triptwo
+{
+    width: 33.33%;
+    height:100% ;
+    background-image: url(trip2.png) ;
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: black 0.7;
+    border: 1px solid white;
+
+}
+
+#prom-2
+{
+    margin-top: 15%;
+    color: white;
+    /* margin-left: 25%; */
+    text-align: center;
+    font-weight:bolder;
+    font-size: x-large;
+    font-style:normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2.5px;
+}
+
+#day-2
+{
+    /* margin-top: 30%; */
+    color: white;
+    height: 10%;
+    width: 50%;
+    line-height: 300%;
+    margin-left: 25%;
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+    font-style: normal;
+    letter-spacing: 2.5px;
+}
+
+#know-more 
+{
+    height: 12%;
+    width: 25%;
+    margin-top: 4%;
+    margin-left: 35%;
+   text-align: center;
+   padding-top: 3%;
+   color: #ffffff;
+   font-weight:50px;
+   font-size:small;
+   border-radius: 4px;
+    background-color: #47a0ff;
+}
+
+#tripthree
+{
+    width: 33.33%;
+    height:100% ;
+    background-image: url(trip3.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: currentColor;
+    border: 1px solid white;
+}
+
+
+
+#c-two
+{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction:row ;
+    background-color: rgb(66, 104, 104);
+}
+
+
+
+#tripfour
+{
+    width: 33.33%;
+    height:100% ;
+    background-image: url(trip4.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: currentColor;
+    border: 1px solid white;
+    
+}
+
+#tripfive
+{
+    width: 33.33%;
+    height:100% ;
+    background-image: url(trip5.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: currentColor;
+    border: 1px solid white;
+}
+
+#tripsix
+{
+    width: 33.33%;
+    height:100% ;
+    background-image: url(trip6.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: currentColor;
+    border: 1px solid white;
+}
+
+
+
+
+/* !-----------------------------------------fourth page ---------------------------------------------------------------------------! */
+#backfive
+{
+    height: 105vh;
+    width: 100vw;
+    display: flex;
+    flex-direction:column;
+    background-color:rgb(239, 236, 236)
+}
+
+
+#news
+{
+    /* margin-top: 3%; */
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #000000;
+    font-family: "Big Noodle Titling";
+    text-align: center;
+    /* margin-top: 0px;*/
+    padding-top: 5%;
+    margin-right: 5%;
+}
+
+#paranew
+{
+    color: rgb(0, 0, 0);
+    font-size: 50%;
+    text-align: center;
+    font-family: "Big Noodle Titling";
+    line-height: 130%;
+    padding-top: 3%;
+   
+}
+
+#news-block
+{
+    height: 100%;
+    display: flex;
+    /* height: 77%; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* height: 100%; */
+    width: 100%;
+    padding-top: 50px;
+}
+/* !---------------------------------------------------------- NEW 1 ----------------------------------------------------! */
+#new-1
+{
+     
+    background-color: rgba(255, 255, 255, 0.687);
+    width: 300px;
+    height: 80%;
+    margin-right: -160px;
+    display:flex;
+    flex-direction: column;
+}
+
+
+#new-11
+{
+    background-image: url(news1.png) ;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 100%;
+    border-top: 7px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
+    
+}
+
+#new-12
+{
+    height: 50%;
+    width: 100%;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
+    border-bottom: 7px solid white;
+    
+}
+
+
+
+/* !---------------------------------------------------------- NEW 2----------------------------------------------------! */
+#new-2
+{
+     
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 134px;
+    z-index: 2;
+    margin-top: 170px;
+    margin-left: 30px;  */
+}
+
+
+#new-21
+{
+    background-image: url(news2.png) ;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 100%;
+    border-top: 7px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
+    
+}
+
+#new-22
+{
+    height: 50%;
+    width: 100%;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
+    border-bottom: 7px solid white;
+    
+}
+
+
+
+/* !---------------------------------------------------------- NEW 3 ----------------------------------------------------! */
+#new-3
+{
+     
+    background-color: rgb(253, 253, 253);
+    width: 300px;
+    height: 80%;
+    margin-left: -160px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+
+#new-31
+{
+    background-image: url(news3.png) ;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 100%;
+    border-top: 7px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
+    
+}
+
+#new-32
+{
+    height: 50%;
+    width: 100%;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
+    border-bottom: 7px solid white;
+    
+}
+
+
+#top
+{
+   height: 20%;
+   width: 100%;
+   background-color: #ffffff;
+}
+
+
+#topcontent-5
+{
+    color:#47a0ff;
+    padding-left: 2%;
+    padding-top: 5%;
+}
+
+#center-5
+{
+    height: 25%;
+    width: 100%;
+    background-color: aqua;
+    display:flex;
+    flex-direction: row;
+}
+
+#dabba
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+}
+#dabba-1
+{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+#a
+{
+    padding-left: 23%;
+    font-size: 12px;
+    color: #606060;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-top: 10%;
+}
+
+#dabba-2
+{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+#d
+{
+    /* font-size: 15px;
+    color: #606060;
+    font-weight: 400;
+    font-family: "Open Sans"; */
+    padding-left: 23%;
+    font-size: 12px;
+    color: #606060;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-top: 10%;
+}
+#bottom-5
+{
+    height: 25%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#p-5
+{
+    font-size: 15px;
+    line-height: 150%;
+    color: #606060;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin-top: 2%; 
+    margin-left: 3%;
+}
+
+
+#backsix
+{
+   height: 100vh;
+   width: 100vw;  
+   display: flex;
+   /* overflow: hidden; */
+}
+
+#img-6
+{
+    background: url(backsix.png)  center/cover;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   
+   
+}
+
+#luxury-6
+{
+    margin-top: 10%;
+}
+
+#head-6
+{
+    font-size:90px;
+    letter-spacing: 4px;
+    line-height:100px;
+    color: #ffffff;
+    font-family: "Big Noodle Titling";
+    text-align: center;
+}
+
+#peace
+{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height:100%;
+    color: #ffffff;
+    font-family: "Big Noodle Titling";
+    text-align: center;
+}
+
+
+#find-6
+{
+    /* border-radius:30px; */
+    margin-left: 40%;
+    margin-top: 2%;
+    width: 120px;
+    height: 120px;
+    border-radius: 78px;
+    background-color: #47a0ff;
+  
+    
+}
+
+
+#find-p
+{
+    align-items: center;
+    padding-top: 20%;
+    padding-left: 11%;
+    display:flexbox;
+    align-items: center;
+    font-size: 16px;
+    line-height: 85px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    
+}
+
+
